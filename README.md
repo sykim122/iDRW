@@ -1,6 +1,8 @@
 # iDRW
 iDRW is an integrative pathway activity inference method using directed random walks on graph. It integrates multiple genomic profiles and transfroms them into a single pathway profile using a pathway-based integrated gene-gene graph.
 
+![outline](/imgs/outline.pdf)
+
 # Installation
 ```R
 library(devtools)
