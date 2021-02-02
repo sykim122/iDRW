@@ -65,12 +65,42 @@ pa <- get.iDRWP(x=list(exp, cna, methyl), y=clinical, globalGraph=gcm, pathSet=p
 `pa$pathActivity` is a pathway profile inferred by iDRW (samples x pathways).
 For more information, please refer the following document with `?get.iDRWP` or `help(get.iDRWP)`.
 
+
 # References
-- Kim SY, et al. Robust pathway-based multi-omics data integration using directed random walks for survival prediction in multiple cancer studies. Biology direct. 2019;14(1):8.
-- Kim SY, et al. Integrative pathway-based survival prediction utilizing the interaction between gene expression and DNA methylation in breast cancer. BMC Med Genet. 2018;11:68.
-- Liu W, et al. Topologically inferring pathway activity toward precise cancer classification via integrating genomic and metabolomic data: prostate cancer as a case. Sci Rep. 2015;5:13192.
-- Liu W, et al. Topologically inferring risk-active pathways toward precise cancer classification by directed random walk. Bioinformatics. 2013;29(17):2169–77.
-- Liu W, et al. Topologically inferring pathway activity for precise survival outcome prediction: breast cancer as a case. Molecular bioSystems. 2017;13.3:537-548.
+Please cite our papers if you use this package in your own work.
+```
+* This article will be appeared in Bioinformatics.
+@article{kim2020multi,
+  title={Multi-layered network-based pathway activity inference using directed random walks: application to predicting clinical outcomes in urologic cancer},
+  author={Kim, So Yeon and Choe, Eun Kyung and Shivakumar, Manu and Kim, Dokyoon and Sohn, Kyung-Ah},
+  journal={bioRxiv},
+  year={2020}
+}
+```
+```
+@article{kim2019robust,
+  title={Robust pathway-based multi-omics data integration using directed random walks for survival prediction in multiple cancer studies},
+  author={Kim, So Yeon and Jeong, Hyun-Hwan and Kim, Jaesik and Moon, Jeong-Hyeon and Sohn, Kyung-Ah},
+  journal={Biology direct},
+  volume={14},
+  number={1},
+  pages={1--13},
+  year={2019},
+  publisher={BioMed Central}
+}
+```
+```
+@article{kim2018integrative,
+  title={Integrative pathway-based survival prediction utilizing the interaction between gene expression and DNA methylation in breast cancer},
+  author={Kim, So Yeon and Kim, Tae Rim and Jeong, Hyun-Hwan and Sohn, Kyung-Ah},
+  journal={BMC medical genomics},
+  volume={11},
+  number={3},
+  pages={33--43},
+  year={2018},
+  publisher={BioMed Central}
+}
+```
 
 # Contact
 So Yeon Kim <jebi1771@gmail.com>
