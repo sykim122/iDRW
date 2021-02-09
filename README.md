@@ -68,7 +68,14 @@ For more information, please refer the following document with `?get.iDRWP` or `
 
 # References
 Please cite our papers if you use this package in your own work.
-
+```
+@article{kim2020multi,
+  title={Multi-layered network-based pathway activity inference using directed random walks: application to predicting clinical outcomes in urologic cancer},
+  author={Kim, So Yeon and Choe, Eun Kyung and Shivakumar, Manu and Kim, Dokyoon and Sohn, Kyung-Ah},
+  journal={bioRxiv},
+  year={2020}
+}
+```
 ```
 @article{kim2019robust,
   title={Robust pathway-based multi-omics data integration using directed random walks for survival prediction in multiple cancer studies},
